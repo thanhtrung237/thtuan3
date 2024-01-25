@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px auto;
+            padding: 0px;
+        }
+        
+        .wrapper {
+            height: 700px;
+            width: 1089px;
+            background-color: rgba(95, 173, 239, 255);
+        }
+        
+        header {
+            position: relative;
+            height: 50px;
+            width: 1089px;
+            text-align: right;
+            margin-right: 10px;
+            border-bottom: 8px dotted white;
+        }
+        
+        header h1 {
+            margin-right: 10px;
+            font-weight: bold;
+            color: white;
+            text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+        }
+        
+        .menu li {
+            height: 50px;
+            width: 150px;
+            list-style-type: none;
+            text-indent: 20px;
+            position: absolute;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .menu li a{
+            color: white;
+        }
+        li:nth-child(5) {
+            right: 740px;
+            top: 15px;
+        }
+        
+        li:nth-child(4) {
+            right: 840px;
+            top: 15px;
+        }
+        
+        li:nth-child(3) {
+            right: 940px;
+            top: 15px;
+        }
+        
+        li:nth-child(2) {
+            right: 1040px;
+            top: 15px;
+        }
+        
+        li:nth-child(1) {
+            right: 1140px;
+            top: 15px;
+        }
+        
+        li a {
+            text-decoration: none;
+        }
+        .v1 {
+            height: 450px;
+            width: 500px;
+            background-color: rgba(95, 173, 239, 255);
+            float: left;
+            margin-top: 30px;
+            margin-left: 5px;
+        }
+        .v1 h1{
+            font-size: 30px;
+            color: white;
+            font-weight: bold;
+        }
+        .v1 h2{
+            font-size: 20px;
+            color: white;
+            margin-top: 20px;
+        }
+        .v2 {
+            height: 450px;
+            width: 500px;
+            background-color: rgba(95, 173, 239, 255);
+            float: right;
+            margin-top: 30px;
+            margin-right: 30px;
+        }
+        .lbl{
+            float: left;
+            width: 200px;
+            margin-left: 50px;
+            color: white;
+        }
+        .inp input{
+            border-radius: 5px; 
+            margin-bottom: 5px;
+        }
+        #txt {
+            border-radius: 5px;
+            margin-bottom: 10px;
+            margin-top: 5px;
+            padding-right: 20px; /* Add padding for the dropdown arrow */
+            height: 60px;
+        }
+        .v2 h1{
+            margin-left: 30px;
+            color: blue;
+            text-shadow: blue -3px -3px 0px;
+        }
+        .v2 h2{
+            margin-left: 40px;
+            color: blue;
+        }
+        .v3{
+            height: 50px;
+            width: 1089px;
+            background-color: rgba(95, 173, 239, 255);
+            margin-top: -200px;
+            border-bottom: 8px dotted white;
+        }
+        .v3 h1{
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Sky World</h1>
+        </header>
+        <nav>
+            <ul class="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+        </nav>
+        <div class="content"></div>
+            <div class="v1">
+                <h1>Registration Information</h1>
+                <h2>Start your travel planning now with our on-line tour regstration
+                    form. Just tell us a little about yourself and your group and one of our travel
+                    experts will contact  you  to create the perfect custom built for your group's needs .</h2>
+                <form action="" method="post" id="ntt">
+                    <div class="lbl">
+                        <label for="">Title</label><br>
+                        <label for="">Full Name*</label><br>
+                        <label for="">Mailing Address</label><br>
+                        <label for="">City</label><br>
+                        <label for="">Country</label><br>
+                        <label for="">Title</label><br>
+                        <label for="">Specific questions or request about your tour</label><br>
+                    </div>
+                    <div class="inp">
+                        <input type ="search" name="txts" id="txts" planceholder="Tilte"><br>
+                        <input type ="search" name="txts" id="txts" planceholder="First Name"><br>
+                        <input type ="search" name="txts" id="txts" planceholder="Mailing Address"><br>
+                        <input type ="search" name="txts" id="txts" planceholder="City"><br>
+                        <input type ="search" name="txts" id="txts" planceholder="Country"><br>
+                        <input type ="search" name="txts" id="txt" planceholder="Specific questions or request about your tour"><br>
+                    </div>
+                </form>
+            </div>
+            <div class="v2">
+                <img src="../img/sky.png" alt="" srcset="" width="450px" height="350"><br>
+                <h1>Your've arrived.</h1>
+                <h2>Journeys as great as the destinations.</h2>
+            </div>
+        </div>
+        <footer>
+            <div class="v3">
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
